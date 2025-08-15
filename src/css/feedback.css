@@ -1,0 +1,133 @@
+/* Container */
+.container.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Product section */
+.product-feedback-section {
+  margin-bottom: 30px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+/* Feedback card */
+.feedback-card {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin-bottom: 15px;
+}
+
+.feedback-info h4 {
+  margin: 0 0 5px 0;
+}
+
+.feedback-info p {
+  margin: 3px 0;
+  font-size: 14px;
+}
+
+/* Buttons */
+.feedback-card__buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.feedback-card__buttons button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.feedback-card__buttons button.view-details {
+  background-color: #fff;
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+.feedback-card__buttons button:hover {
+  opacity: 0.85;
+}
+
+.feedback-card__buttons button.view-details:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Comments */
+.comments {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.add-comment {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-comment input {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-comment input.input-error {
+  border-color: red;
+}
+
+.add-comment button {
+  width: fit-content;
+}
+
+/* Error text */
+.error-text {
+  color: red;
+  font-size: 13px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #4CAF50;
+  background-color: #fff;
+  color: #4CAF50;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination button.active {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #4CAF50;
+  color: #fff;
+}
